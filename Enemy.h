@@ -1,12 +1,12 @@
 #pragma once
 #include <stdio.h>
 
-class MyClass
+class Enemy
 {
 	public:
 
-		MyClass();
-		~MyClass();
+		Enemy();
+		~Enemy();
 
 		void Update(int phase);
 
@@ -22,7 +22,7 @@ class MyClass
 
 	private:
 
-		static void (MyClass::* spFuncTable[])();
+		static void (Enemy::* spFuncTable[])();
 		//size_t phase_ = static_cast<size_t>(phase_);
 		int phase = 0;
 	

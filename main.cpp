@@ -1,9 +1,9 @@
-#include "MyClass.h"
+#include "Enemy.h"
 
 
 int main() {
 
-	MyClass obj;
+	Enemy obj;
 	for (int i = 0; i < 3; i++)
 	{
 		obj.Update(i);
